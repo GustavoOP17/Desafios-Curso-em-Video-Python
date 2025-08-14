@@ -2,7 +2,7 @@ totalMulher20 = maior18 = homens = 0
 
 while True:
     print('-' * 30)
-    print('CADASTRE UMA PESSOA')
+    print('{:-^30}'.format(' CADASTRE UMA PESSOA '))
     print('-' * 30)
     
     idade = int(input('Idade: '))
